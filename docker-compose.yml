@@ -17,6 +17,6 @@ services:
       - CHOKIDAR_USEPOLLING=true
     extra_hosts:                  # 追加
       - localhost:0.0.0.0   # 追加
-    command: sh -c "npm run dev"
+    # command: sh -c "npm run dev"
 volumes:
   nuxt_node_modules:
